@@ -1,0 +1,899 @@
+{
+ "network": {
+  "items": [
+   {
+    "id": 1,
+    "label": "石榴埔",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 18.0
+    },
+    "description": "<b>石榴埔</b><br>村落：石榴埔<br>出現次數：18<br>最常共現：伯公(3)、祠堂(2)、羅豫章(1)、神位(1)、祭祀(1)"
+   },
+   {
+    "id": 2,
+    "label": "東涌",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>東涌</b><br>村落：石榴埔<br>出現次數：9<br>最常共現：來港(2)、大陸(2)、廣東(1)、屯門(1)、丈夫(1)"
+   },
+   {
+    "id": 3,
+    "label": "兒子",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>兒子</b><br>村落：石榴埔<br>出現次數：8<br>最常共現：結婚(2)、屯門(1)、香港(1)、共住(1)、獨居(1)"
+   },
+   {
+    "id": 4,
+    "label": "妖精",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>妖精</b><br>村落：石榴埔<br>出現次數：8<br>最常共現：丈夫(2)、東涌(1)、來港(1)、美國(1)、移民(1)"
+   },
+   {
+    "id": 5,
+    "label": "丈夫",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>丈夫</b><br>村落：石榴埔<br>出現次數：6<br>最常共現：妖精(2)、東涌(1)、來港(1)、美國(1)、移民(1)"
+   },
+   {
+    "id": 6,
+    "label": "美國",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>美國</b><br>村落：石榴埔<br>出現次數：6<br>最常共現：移民(3)、兒子(1)、東涌(1)、來港(1)、丈夫(1)"
+   },
+   {
+    "id": 7,
+    "label": "來港",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>來港</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：東涌(2)、大陸(2)、廣東(1)、丈夫(1)、美國(1)"
+   },
+   {
+    "id": 8,
+    "label": "每年",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>每年</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：香港(1)、祖先(1)、祭祀(1)、儀式(1)、酬神(1)"
+   },
+   {
+    "id": 9,
+    "label": "政府",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>政府</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：兒子(1)、東涌(1)、官地(1)、回來(1)"
+   },
+   {
+    "id": 10,
+    "label": "回來",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>回來</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：石榴埔(1)、兒子(1)、哥哥(1)、獨居(1)、政府(1)"
+   },
+   {
+    "id": 11,
+    "label": "子女",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>子女</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：太太(1)、獨居(1)、回來(1)"
+   },
+   {
+    "id": 12,
+    "label": "侯王爺",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>侯王爺</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：祖先(1)、每年(1)"
+   },
+   {
+    "id": 13,
+    "label": "移民",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>移民</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：美國(3)、兒子(1)、東涌(1)、來港(1)、丈夫(1)"
+   },
+   {
+    "id": 14,
+    "label": "姓羅",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>姓羅</b><br>村落：石榴埔<br>出現次數：4<br>最常共現：石榴埔(1)、丈夫(1)、太公(1)"
+   },
+   {
+    "id": 15,
+    "label": "屯門",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>屯門</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：兒子(1)、東涌(1)"
+   },
+   {
+    "id": 16,
+    "label": "香港",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>香港</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：兒子(1)、結婚(1)、每年(1)、薑花(1)"
+   },
+   {
+    "id": 17,
+    "label": "祠堂",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>祠堂</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：石榴埔(2)、伯公(2)、眾屋(1)、羅門(1)、祖先(1)"
+   },
+   {
+    "id": 18,
+    "label": "祖先",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>祖先</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：眾屋(1)、祠堂(1)、羅門(1)、神位(1)、每年(1)"
+   },
+   {
+    "id": 19,
+    "label": "伯公",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>伯公</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：石榴埔(3)、祠堂(2)、羅豫章(1)、神位(1)、祭祀(1)"
+   },
+   {
+    "id": 20,
+    "label": "酬神",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>酬神</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：石榴埔(1)、祠堂(1)、伯公(1)、祭祀(1)、儀式(1)"
+   },
+   {
+    "id": 21,
+    "label": "村長",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>村長</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：石榴埔(1)、兒子(1)、美國(1)、移民(1)"
+   },
+   {
+    "id": 22,
+    "label": "侯王寶誕",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>侯王寶誕</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：石榴埔(1)、東涌(1)、回來(1)"
+   },
+   {
+    "id": 23,
+    "label": "大陸",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>大陸</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：東涌(2)、來港(2)、廣東(1)、丈夫(1)、美國(1)"
+   },
+   {
+    "id": 24,
+    "label": "薑花",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>薑花</b><br>村落：石榴埔<br>出現次數：3<br>最常共現：廣東(1)、香港(1)、東涌(1)、來港(1)、每年(1)"
+   },
+   {
+    "id": 25,
+    "label": "廣東",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>廣東</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：東涌(1)、來港(1)、大陸(1)、薑花(1)"
+   },
+   {
+    "id": 26,
+    "label": "太太",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>太太</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：子女(1)"
+   },
+   {
+    "id": 27,
+    "label": "結婚",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>結婚</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：兒子(2)、香港(1)"
+   },
+   {
+    "id": 28,
+    "label": "房屋",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>房屋</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：（無）"
+   },
+   {
+    "id": 29,
+    "label": "官地",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>官地</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：政府(1)"
+   },
+   {
+    "id": 30,
+    "label": "外家",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>外家</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：哥哥(1)"
+   },
+   {
+    "id": 31,
+    "label": "哥哥",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>哥哥</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：外家(1)、回來(1)"
+   },
+   {
+    "id": 32,
+    "label": "眾屋",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>眾屋</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：羅豫章(1)、祠堂(1)、羅門(1)、祖先(1)、神位(1)"
+   },
+   {
+    "id": 33,
+    "label": "羅豫章",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>羅豫章</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：石榴埔(1)、眾屋(1)、神位(1)、伯公(1)"
+   },
+   {
+    "id": 34,
+    "label": "太公",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>太公</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：姓羅(1)"
+   },
+   {
+    "id": 35,
+    "label": "羅門",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>羅門</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：眾屋(1)、祠堂(1)、祖先(1)、神位(1)"
+   },
+   {
+    "id": 36,
+    "label": "神位",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>神位</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：石榴埔(1)、眾屋(1)、羅豫章(1)、祠堂(1)、羅門(1)"
+   },
+   {
+    "id": 37,
+    "label": "共住",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>共住</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：兒子(1)、東涌(1)、獨居(1)"
+   },
+   {
+    "id": 38,
+    "label": "獨居",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>獨居</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：兒子(1)、共住(1)、回來(1)、子女(1)"
+   },
+   {
+    "id": 39,
+    "label": "祭祀",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>祭祀</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：儀式(2)、石榴埔(1)、祠堂(1)、伯公(1)、酬神(1)"
+   },
+   {
+    "id": 40,
+    "label": "儀式",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>儀式</b><br>村落：石榴埔<br>出現次數：2<br>最常共現：祭祀(2)、石榴埔(1)、祠堂(1)、伯公(1)、酬神(1)"
+   }
+  ],
+  "links": [
+   {
+    "source_id": 1,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 27,
+    "strength": 2.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 4,
+    "strength": 2.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 2,
+    "strength": 2.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 23,
+    "strength": 2.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 6,
+    "strength": 3.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 1,
+    "strength": 3.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 2,
+    "strength": 2.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 39,
+    "strength": 2.0
+   }
+  ],
+  "clusters": [
+   {
+    "cluster": 1,
+    "label": "石榴埔、每年、侯王爺"
+   },
+   {
+    "cluster": 2,
+    "label": "東涌、妖精、丈夫"
+   },
+   {
+    "cluster": 3,
+    "label": "兒子、政府、回來"
+   },
+   {
+    "cluster": 4,
+    "label": "姓羅、太公"
+   },
+   {
+    "cluster": 5,
+    "label": "房屋"
+   }
+  ]
+ },
+ "info": {
+  "title": "1992 東涌田野筆記：石榴埔 詞語共現網絡（第二版）",
+  "description": "石榴埔：以句子為共現單位（以 。！？； 及段落分句，同一句內出現即計一次）；取出現≥2次的前40個詞；已排除停用詞、人名、單字詞及筆記模板標題。"
+ }
+}

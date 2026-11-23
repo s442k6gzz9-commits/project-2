@@ -1,0 +1,1044 @@
+{
+ "network": {
+  "items": [
+   {
+    "id": 1,
+    "label": "莫家村",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 28.0
+    },
+    "description": "<b>莫家村</b><br>村落：莫家<br>出現次數：28<br>最常共現：村長(5)、炮會(3)、梅窩(2)、參加(2)、工作(1)"
+   },
+   {
+    "id": 2,
+    "label": "分家",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 21.0
+    },
+    "description": "<b>分家</b><br>村落：莫家<br>出現次數：21<br>最常共現：村長(3)、兒子(2)、財產(2)、房屋(2)、女兒(1)"
+   },
+   {
+    "id": 3,
+    "label": "村長",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 18.0
+    },
+    "description": "<b>村長</b><br>村落：莫家<br>出現次數：18<br>最常共現：莫家村(5)、負責(5)、分家(3)、祭祖(3)、村中(3)"
+   },
+   {
+    "id": 4,
+    "label": "兒子",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 12.0
+    },
+    "description": "<b>兒子</b><br>村落：莫家<br>出現次數：12<br>最常共現：財產(3)、分家(2)、女兒(2)、莫家(2)、過繼(2)"
+   },
+   {
+    "id": 5,
+    "label": "祭祖",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 11.0
+    },
+    "description": "<b>祭祖</b><br>村落：莫家<br>出現次數：11<br>最常共現：負責(3)、村長(3)、工作(2)、參加(2)、莫家村(1)"
+   },
+   {
+    "id": 6,
+    "label": "女兒",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>女兒</b><br>村落：莫家<br>出現次數：9<br>最常共現：兒子(2)、分家(1)、結婚(1)、子女(1)、做工(1)"
+   },
+   {
+    "id": 7,
+    "label": "結婚",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>結婚</b><br>村落：莫家<br>出現次數：9<br>最常共現：分家(1)、兒子(1)、女兒(1)、子女(1)、重建(1)"
+   },
+   {
+    "id": 8,
+    "label": "參加",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>參加</b><br>村落：莫家<br>出現次數：9<br>最常共現：莫家村(2)、祭祖(2)、全村(2)、炮會(2)、女兒(1)"
+   },
+   {
+    "id": 9,
+    "label": "祠堂",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>祠堂</b><br>村落：莫家<br>出現次數：8<br>最常共現：莫裕生堂(2)、兒子(1)、莫家(1)、重建(1)、拜祭(1)"
+   },
+   {
+    "id": 10,
+    "label": "財產",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>財產</b><br>村落：莫家<br>出現次數：8<br>最常共現：兒子(3)、房屋(3)、分家(2)、莫家(2)、土地(2)"
+   },
+   {
+    "id": 11,
+    "label": "拜祭",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>拜祭</b><br>村落：莫家<br>出現次數：7<br>最常共現：始祖(2)、負責(2)、祠堂(1)、土地(1)、祭祖(1)"
+   },
+   {
+    "id": 12,
+    "label": "負責",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>負責</b><br>村落：莫家<br>出現次數：7<br>最常共現：村長(5)、祭祖(3)、拜祭(2)、莫家村(1)、分家(1)"
+   },
+   {
+    "id": 13,
+    "label": "石榴埔",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>石榴埔</b><br>村落：莫家<br>出現次數：6<br>最常共現：做工(1)、婚姻(1)、電視(1)"
+   },
+   {
+    "id": 14,
+    "label": "青衣",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>青衣</b><br>村落：莫家<br>出現次數：6<br>最常共現：屯門(3)、子女(1)、東涌(1)"
+   },
+   {
+    "id": 15,
+    "label": "莫家",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>莫家</b><br>村落：莫家<br>出現次數：6<br>最常共現：兒子(2)、財產(2)、莫裕生堂(1)、祠堂(1)、過繼(1)"
+   },
+   {
+    "id": 16,
+    "label": "莫裕生堂",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>莫裕生堂</b><br>村落：莫家<br>出現次數：6<br>最常共現：祠堂(2)、兒子(1)、做工(1)、莫家(1)、重建(1)"
+   },
+   {
+    "id": 17,
+    "label": "過繼",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>過繼</b><br>村落：莫家<br>出現次數：6<br>最常共現：兒子(2)、財產(2)、兄弟(2)、莫家(1)、全村(1)"
+   },
+   {
+    "id": 18,
+    "label": "兄弟",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>兄弟</b><br>村落：莫家<br>出現次數：6<br>最常共現：過繼(2)、村長(2)、莫家村(1)、分家(1)、兒子(1)"
+   },
+   {
+    "id": 19,
+    "label": "房屋",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>房屋</b><br>村落：莫家<br>出現次數：6<br>最常共現：財產(3)、分家(2)、土地(2)、莫家村(1)、兒子(1)"
+   },
+   {
+    "id": 20,
+    "label": "村中",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>村中</b><br>村落：莫家<br>出現次數：6<br>最常共現：村長(3)、分家(1)、結婚(1)、祭祖(1)、兄弟(1)"
+   },
+   {
+    "id": 21,
+    "label": "東涌",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>東涌</b><br>村落：莫家<br>出現次數：6<br>最常共現：莫家村(1)、子女(1)、青衣(1)、房屋(1)、家中(1)"
+   },
+   {
+    "id": 22,
+    "label": "電視",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>電視</b><br>村落：莫家<br>出現次數：6<br>最常共現：石榴埔(1)、子女(1)、負責(1)、二樓(1)、海產(1)"
+   },
+   {
+    "id": 23,
+    "label": "工作",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>工作</b><br>村落：莫家<br>出現次數：5<br>最常共現：祭祖(2)、莫家村(1)、梅窩(1)、負責(1)、村長(1)"
+   },
+   {
+    "id": 24,
+    "label": "始祖",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>始祖</b><br>村落：莫家<br>出現次數：5<br>最常共現：拜祭(2)、兒子(1)、土地(1)、祭祖(1)"
+   },
+   {
+    "id": 25,
+    "label": "重建",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>重建</b><br>村落：莫家<br>出現次數：5<br>最常共現：結婚(1)、莫裕生堂(1)、祠堂(1)、土地(1)、房屋(1)"
+   },
+   {
+    "id": 26,
+    "label": "土地",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>土地</b><br>村落：莫家<br>出現次數：5<br>最常共現：財產(2)、房屋(2)、分家(1)、始祖(1)、重建(1)"
+   },
+   {
+    "id": 27,
+    "label": "月名",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>月名</b><br>村落：莫家<br>出現次數：5<br>最常共現：（無）"
+   },
+   {
+    "id": 28,
+    "label": "全村",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>全村</b><br>村落：莫家<br>出現次數：5<br>最常共現：參加(2)、莫家村(1)、分家(1)、財產(1)、過繼(1)"
+   },
+   {
+    "id": 29,
+    "label": "回來",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>回來</b><br>村落：莫家<br>出現次數：5<br>最常共現：分家(1)、做工(1)、工作(1)、梅窩(1)、莫裕生堂(1)"
+   },
+   {
+    "id": 30,
+    "label": "炮會",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>炮會</b><br>村落：莫家<br>出現次數：5<br>最常共現：莫家村(3)、參加(2)、工作(1)、祭祖(1)、全村(1)"
+   },
+   {
+    "id": 31,
+    "label": "家中",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>家中</b><br>村落：莫家<br>出現次數：5<br>最常共現：回來(1)、東涌(1)"
+   },
+   {
+    "id": 32,
+    "label": "婚姻",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>婚姻</b><br>村落：莫家<br>出現次數：5<br>最常共現：石榴埔(1)"
+   },
+   {
+    "id": 33,
+    "label": "二樓",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>二樓</b><br>村落：莫家<br>出現次數：5<br>最常共現：莫家村(1)、電視(1)、海產(1)"
+   },
+   {
+    "id": 34,
+    "label": "屯門",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>屯門</b><br>村落：莫家<br>出現次數：5<br>最常共現：青衣(3)、子女(1)"
+   },
+   {
+    "id": 35,
+    "label": "字輩",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>字輩</b><br>村落：莫家<br>出現次數：5<br>最常共現：兒子(1)、結婚(1)、村長(1)"
+   },
+   {
+    "id": 36,
+    "label": "二女婿",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>二女婿</b><br>村落：莫家<br>出現次數：5<br>最常共現：海產(1)"
+   },
+   {
+    "id": 37,
+    "label": "海產",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>海產</b><br>村落：莫家<br>出現次數：5<br>最常共現：女兒(1)、二樓(1)、電視(1)、二女婿(1)"
+   },
+   {
+    "id": 38,
+    "label": "子女",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>子女</b><br>村落：莫家<br>出現次數：4<br>最常共現：女兒(1)、結婚(1)、青衣(1)、東涌(1)、電視(1)"
+   },
+   {
+    "id": 39,
+    "label": "做工",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>做工</b><br>村落：莫家<br>出現次數：4<br>最常共現：石榴埔(1)、女兒(1)、莫裕生堂(1)、參加(1)、回來(1)"
+   },
+   {
+    "id": 40,
+    "label": "梅窩",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>梅窩</b><br>村落：莫家<br>出現次數：4<br>最常共現：莫家村(2)、工作(1)、回來(1)"
+   }
+  ],
+  "links": [
+   {
+    "source_id": 1,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 3,
+    "strength": 3.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 19,
+    "strength": 2.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 29,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 1,
+    "strength": 5.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 5,
+    "strength": 3.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 12,
+    "strength": 5.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 2,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 6,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 10,
+    "strength": 3.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 15,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 12,
+    "strength": 3.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 5,
+    "strength": 2.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 29,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 30,
+    "strength": 2.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 16,
+    "strength": 2.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 12,
+    "strength": 2.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 28,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 10,
+    "strength": 3.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 3,
+    "strength": 3.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 5,
+    "strength": 2.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 11,
+    "strength": 2.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 19,
+    "strength": 2.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 8,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 1,
+    "strength": 3.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 14,
+    "strength": 3.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 29,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 1,
+    "strength": 2.0
+   }
+  ],
+  "clusters": [
+   {
+    "cluster": 1,
+    "label": "分家、兒子、女兒"
+   },
+   {
+    "cluster": 2,
+    "label": "莫家村、參加、工作"
+   },
+   {
+    "cluster": 3,
+    "label": "石榴埔、青衣、東涌"
+   },
+   {
+    "cluster": 4,
+    "label": "村長、祭祖、拜祭"
+   },
+   {
+    "cluster": 5,
+    "label": "月名"
+   }
+  ]
+ },
+ "info": {
+  "title": "1992 東涌田野筆記：莫家 詞語共現網絡（第二版）",
+  "description": "莫家：以句子為共現單位（以 。！？； 及段落分句，同一句內出現即計一次）；取出現≥2次的前40個詞；已排除停用詞、人名、單字詞及筆記模板標題。"
+ }
+}

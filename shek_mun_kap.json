@@ -1,0 +1,553 @@
+{
+ "network": {
+  "items": [
+   {
+    "id": 1,
+    "label": "石門甲",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>石門甲</b><br>村落：石門甲<br>出現次數：9<br>最常共現：村中(2)、祠堂(2)、屯門(1)、喜事(1)、東涌(1)"
+   },
+   {
+    "id": 2,
+    "label": "侯王爺",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>侯王爺</b><br>村落：石門甲<br>出現次數：4<br>最常共現：座鎮(2)、每年(1)、母親(1)、父母(1)"
+   },
+   {
+    "id": 3,
+    "label": "居住",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>居住</b><br>村落：石門甲<br>出現次數：3<br>最常共現：太太(1)、香港(1)、屯門(1)、每年(1)、退休(1)"
+   },
+   {
+    "id": 4,
+    "label": "村中",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>村中</b><br>村落：石門甲<br>出現次數：3<br>最常共現：石門甲(2)、居住(1)、男女(1)、結婚(1)、市區(1)"
+   },
+   {
+    "id": 5,
+    "label": "華都",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>華都</b><br>村落：石門甲<br>出現次數：3<br>最常共現：（無）"
+   },
+   {
+    "id": 6,
+    "label": "村民",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>村民</b><br>村落：石門甲<br>出現次數：3<br>最常共現：石門甲(1)、祠堂(1)"
+   },
+   {
+    "id": 7,
+    "label": "太太",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>太太</b><br>村落：石門甲<br>出現次數：2<br>最常共現：香港(1)、屯門(1)、居住(1)、每年(1)、退休(1)"
+   },
+   {
+    "id": 8,
+    "label": "香港",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>香港</b><br>村落：石門甲<br>出現次數：2<br>最常共現：太太(1)、屯門(1)、居住(1)、每年(1)、退休(1)"
+   },
+   {
+    "id": 9,
+    "label": "屯門",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>屯門</b><br>村落：石門甲<br>出現次數：2<br>最常共現：石門甲(1)、太太(1)、香港(1)、居住(1)、每年(1)"
+   },
+   {
+    "id": 10,
+    "label": "每年",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>每年</b><br>村落：石門甲<br>出現次數：2<br>最常共現：太太(1)、香港(1)、屯門(1)、居住(1)、退休(1)"
+   },
+   {
+    "id": 11,
+    "label": "退休",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>退休</b><br>村落：石門甲<br>出現次數：2<br>最常共現：太太(1)、香港(1)、屯門(1)、居住(1)、每年(1)"
+   },
+   {
+    "id": 12,
+    "label": "海員",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>海員</b><br>村落：石門甲<br>出現次數：2<br>最常共現：太太(1)、香港(1)、屯門(1)、居住(1)、每年(1)"
+   },
+   {
+    "id": 13,
+    "label": "男女",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>男女</b><br>村落：石門甲<br>出現次數：2<br>最常共現：居住(1)、村中(1)、結婚(1)、市區(1)、母親(1)"
+   },
+   {
+    "id": 14,
+    "label": "結婚",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>結婚</b><br>村落：石門甲<br>出現次數：2<br>最常共現：居住(1)、村中(1)、男女(1)、市區(1)、母親(1)"
+   },
+   {
+    "id": 15,
+    "label": "市區",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>市區</b><br>村落：石門甲<br>出現次數：2<br>最常共現：居住(1)、村中(1)、男女(1)、結婚(1)、母親(1)"
+   },
+   {
+    "id": 16,
+    "label": "母親",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>母親</b><br>村落：石門甲<br>出現次數：2<br>最常共現：居住(1)、侯王爺(1)、村中(1)、男女(1)、結婚(1)"
+   },
+   {
+    "id": 17,
+    "label": "喜事",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>喜事</b><br>村落：石門甲<br>出現次數：2<br>最常共現：石門甲(1)、村中(1)"
+   },
+   {
+    "id": 18,
+    "label": "村長",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>村長</b><br>村落：石門甲<br>出現次數：2<br>最常共現：（無）"
+   },
+   {
+    "id": 19,
+    "label": "女兒",
+    "cluster": 6,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>女兒</b><br>村落：石門甲<br>出現次數：2<br>最常共現：（無）"
+   },
+   {
+    "id": 20,
+    "label": "東涌",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>東涌</b><br>村落：石門甲<br>出現次數：2<br>最常共現：石門甲(1)、海員(1)、村中(1)、祠堂(1)、工作(1)"
+   },
+   {
+    "id": 21,
+    "label": "祠堂",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>祠堂</b><br>村落：石門甲<br>出現次數：2<br>最常共現：石門甲(2)、村中(1)、東涌(1)、村民(1)"
+   },
+   {
+    "id": 22,
+    "label": "工作",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>工作</b><br>村落：石門甲<br>出現次數：2<br>最常共現：海員(1)、東涌(1)"
+   },
+   {
+    "id": 23,
+    "label": "家庭",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>家庭</b><br>村落：石門甲<br>出現次數：2<br>最常共現：父母(1)"
+   },
+   {
+    "id": 24,
+    "label": "父母",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>父母</b><br>村落：石門甲<br>出現次數：2<br>最常共現：侯王爺(1)、母親(1)、家庭(1)、座鎮(1)"
+   },
+   {
+    "id": 25,
+    "label": "座鎮",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>座鎮</b><br>村落：石門甲<br>出現次數：2<br>最常共現：侯王爺(2)、母親(1)、父母(1)"
+   }
+  ],
+  "links": [
+   {
+    "source_id": 1,
+    "target_id": 21,
+    "strength": 2.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 25,
+    "strength": 2.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 6,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 24,
+    "strength": 1.0
+   }
+  ],
+  "clusters": [
+   {
+    "cluster": 1,
+    "label": "石門甲、村中、村民"
+   },
+   {
+    "cluster": 2,
+    "label": "侯王爺、男女、結婚"
+   },
+   {
+    "cluster": 3,
+    "label": "居住、太太、香港"
+   },
+   {
+    "cluster": 4,
+    "label": "華都"
+   },
+   {
+    "cluster": 5,
+    "label": "村長"
+   },
+   {
+    "cluster": 6,
+    "label": "女兒"
+   }
+  ]
+ },
+ "info": {
+  "title": "1992 東涌田野筆記：石門甲 詞語共現網絡（第二版）",
+  "description": "石門甲：以句子為共現單位（以 。！？； 及段落分句，同一句內出現即計一次）；文字太少，取出現次數最高的前25個詞（包括只出現一次的詞，同頻者按首次出現先後）；已排除停用詞、人名、單字詞及筆記模板標題。"
+ }
+}

@@ -1,0 +1,1426 @@
+{
+ "network": {
+  "items": [
+   {
+    "id": 1,
+    "label": "兒子",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 40.0
+    },
+    "description": "<b>兒子</b><br>村落：上嶺皮<br>出現次數：40<br>最常共現：東涌(7)、過繼(6)、居住(4)、回來(4)、新抱(4)"
+   },
+   {
+    "id": 2,
+    "label": "東涌",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 31.0
+    },
+    "description": "<b>東涌</b><br>村落：上嶺皮<br>出現次數：31<br>最常共現：兒子(7)、居住(7)、工作(4)、香港(3)、結婚(3)"
+   },
+   {
+    "id": 3,
+    "label": "神位",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 31.0
+    },
+    "description": "<b>神位</b><br>村落：上嶺皮<br>出現次數：31<br>最常共現：地主(6)、村口(6)、祖先(5)、家中(4)、香爐(3)"
+   },
+   {
+    "id": 4,
+    "label": "回來",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 20.0
+    },
+    "description": "<b>回來</b><br>村落：上嶺皮<br>出現次數：20<br>最常共現：兒子(4)、香港(3)、東涌(3)、工作(2)、福記號(2)"
+   },
+   {
+    "id": 5,
+    "label": "上嶺皮",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 19.0
+    },
+    "description": "<b>上嶺皮</b><br>村落：上嶺皮<br>出現次數：19<br>最常共現：祖先(3)、群英堂(3)、丈夫(1)、居住(1)、東涌(1)"
+   },
+   {
+    "id": 6,
+    "label": "過繼",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 17.0
+    },
+    "description": "<b>過繼</b><br>村落：上嶺皮<br>出現次數：17<br>最常共現：兒子(6)、村中(2)、上嶺皮(1)、回來(1)、東涌(1)"
+   },
+   {
+    "id": 7,
+    "label": "女兒",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 14.0
+    },
+    "description": "<b>女兒</b><br>村落：上嶺皮<br>出現次數：14<br>最常共現：出嫁(4)、兒子(3)、結婚(2)、居住(2)、香港(1)"
+   },
+   {
+    "id": 8,
+    "label": "新抱",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 14.0
+    },
+    "description": "<b>新抱</b><br>村落：上嶺皮<br>出現次數：14<br>最常共現：兒子(4)、工作(2)、結婚(2)、出嫁(2)、香港(1)"
+   },
+   {
+    "id": 9,
+    "label": "家中",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 14.0
+    },
+    "description": "<b>家中</b><br>村落：上嶺皮<br>出現次數：14<br>最常共現：神位(4)、回來(2)、祖先(2)、地主(2)、侯王(2)"
+   },
+   {
+    "id": 10,
+    "label": "祖先",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 14.0
+    },
+    "description": "<b>祖先</b><br>村落：上嶺皮<br>出現次數：14<br>最常共現：神位(5)、上嶺皮(3)、拜神(3)、地主(3)、新年(2)"
+   },
+   {
+    "id": 11,
+    "label": "工作",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 12.0
+    },
+    "description": "<b>工作</b><br>村落：上嶺皮<br>出現次數：12<br>最常共現：香港(4)、東涌(4)、兒子(3)、居住(3)、負責(2)"
+   },
+   {
+    "id": 12,
+    "label": "結婚",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 12.0
+    },
+    "description": "<b>結婚</b><br>村落：上嶺皮<br>出現次數：12<br>最常共現：擺酒(4)、兒子(3)、東涌(3)、女兒(2)、新抱(2)"
+   },
+   {
+    "id": 13,
+    "label": "居住",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 11.0
+    },
+    "description": "<b>居住</b><br>村落：上嶺皮<br>出現次數：11<br>最常共現：東涌(7)、兒子(4)、工作(3)、香港(2)、女兒(2)"
+   },
+   {
+    "id": 14,
+    "label": "侯王廟",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 11.0
+    },
+    "description": "<b>侯王廟</b><br>村落：上嶺皮<br>出現次數：11<br>最常共現：拜神(3)、侯王(2)、村民(2)、負責(1)、新年(1)"
+   },
+   {
+    "id": 15,
+    "label": "侯王",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 10.0
+    },
+    "description": "<b>侯王</b><br>村落：上嶺皮<br>出現次數：10<br>最常共現：神位(3)、侯王廟(2)、家中(2)、村口(2)、負責(1)"
+   },
+   {
+    "id": 16,
+    "label": "群英堂",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 10.0
+    },
+    "description": "<b>群英堂</b><br>村落：上嶺皮<br>出現次數：10<br>最常共現：上嶺皮(3)、結婚(2)、擺酒(2)、負責(1)、兒子(1)"
+   },
+   {
+    "id": 17,
+    "label": "香港",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>香港</b><br>村落：上嶺皮<br>出現次數：9<br>最常共現：工作(4)、回來(3)、東涌(3)、兒子(2)、居住(2)"
+   },
+   {
+    "id": 18,
+    "label": "拜神",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>拜神</b><br>村落：上嶺皮<br>出現次數：9<br>最常共現：新年(4)、侯王廟(3)、祖先(3)、神位(2)、工作(1)"
+   },
+   {
+    "id": 19,
+    "label": "村民",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>村民</b><br>村落：上嶺皮<br>出現次數：9<br>最常共現：侯王廟(2)、神位(2)、上嶺皮(1)、負責(1)、兒子(1)"
+   },
+   {
+    "id": 20,
+    "label": "出嫁",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>出嫁</b><br>村落：上嶺皮<br>出現次數：8<br>最常共現：兒子(4)、女兒(4)、東涌(2)、新抱(2)、新娘(2)"
+   },
+   {
+    "id": 21,
+    "label": "儀式",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>儀式</b><br>村落：上嶺皮<br>出現次數：8<br>最常共現：兒子(1)、結婚(1)、神位(1)、村中(1)、過繼(1)"
+   },
+   {
+    "id": 22,
+    "label": "父親",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>父親</b><br>村落：上嶺皮<br>出現次數：8<br>最常共現：兒子(2)、過繼(1)、分家(1)"
+   },
+   {
+    "id": 23,
+    "label": "分家",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>分家</b><br>村落：上嶺皮<br>出現次數：8<br>最常共現：負責(1)、儀式(1)、父親(1)"
+   },
+   {
+    "id": 24,
+    "label": "負責",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>負責</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：工作(2)、神位(2)、東涌(1)、侯王廟(1)、祖先(1)"
+   },
+   {
+    "id": 25,
+    "label": "孫女",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>孫女</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：沙田(3)、福記號(1)、兒子(1)、年初四(1)、回來(1)"
+   },
+   {
+    "id": 26,
+    "label": "新娘",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>新娘</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：結婚(2)、出嫁(2)、新抱(1)、村中(1)、擺酒(1)"
+   },
+   {
+    "id": 27,
+    "label": "擺酒",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>擺酒</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：結婚(4)、兒子(3)、東涌(2)、群英堂(2)、居住(1)"
+   },
+   {
+    "id": 28,
+    "label": "地主",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>地主</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：神位(6)、祖先(3)、家中(2)、香爐(2)、祖先神位(2)"
+   },
+   {
+    "id": 29,
+    "label": "香爐",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>香爐</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：神位(3)、地主(2)、祖先(1)"
+   },
+   {
+    "id": 30,
+    "label": "原居民",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>原居民</b><br>村落：上嶺皮<br>出現次數：7<br>最常共現：上嶺皮(1)、居住(1)、東涌(1)、村民(1)"
+   },
+   {
+    "id": 31,
+    "label": "丈夫",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>丈夫</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：上嶺皮(1)、兒子(1)、回來(1)、家中(1)"
+   },
+   {
+    "id": 32,
+    "label": "新年",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>新年</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：拜神(4)、祖先(2)、工作(1)、侯王廟(1)、新抱(1)"
+   },
+   {
+    "id": 33,
+    "label": "男孫",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>男孫</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：工作(2)、回來(2)、兒子(1)、新抱(1)"
+   },
+   {
+    "id": 34,
+    "label": "村中",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>村中</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：兒子(2)、神位(2)、過繼(2)、大王爺(2)、上嶺皮(1)"
+   },
+   {
+    "id": 35,
+    "label": "村口",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>村口</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：神位(6)、侯王(2)、負責(1)、侯王廟(1)、拜神(1)"
+   },
+   {
+    "id": 36,
+    "label": "大王爺",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>大王爺</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：神位(3)、村中(2)、村口(1)"
+   },
+   {
+    "id": 37,
+    "label": "祖先神位",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>祖先神位</b><br>村落：上嶺皮<br>出現次數：6<br>最常共現：神位(2)、地主(2)、居住(1)、家中(1)、村民(1)"
+   },
+   {
+    "id": 38,
+    "label": "福記號",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>福記號</b><br>村落：上嶺皮<br>出現次數：5<br>最常共現：兒子(3)、年初四(2)、沙田(2)、回來(2)、東涌(2)"
+   },
+   {
+    "id": 39,
+    "label": "年初四",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>年初四</b><br>村落：上嶺皮<br>出現次數：5<br>最常共現：沙田(3)、福記號(2)、兒子(2)、東涌(2)、香港(1)"
+   },
+   {
+    "id": 40,
+    "label": "沙田",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>沙田</b><br>村落：上嶺皮<br>出現次數：5<br>最常共現：年初四(3)、孫女(3)、福記號(2)、兒子(2)、東涌(2)"
+   }
+  ],
+  "links": [
+   {
+    "source_id": 1,
+    "target_id": 2,
+    "strength": 7.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 4,
+    "strength": 4.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 6,
+    "strength": 6.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 7,
+    "strength": 3.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 8,
+    "strength": 4.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 11,
+    "strength": 3.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 12,
+    "strength": 3.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 13,
+    "strength": 4.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 20,
+    "strength": 4.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 22,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 27,
+    "strength": 3.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 34,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 38,
+    "strength": 3.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 39,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 40,
+    "strength": 2.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 12,
+    "strength": 3.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 17,
+    "strength": 3.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 38,
+    "strength": 2.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 40,
+    "strength": 2.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 24,
+    "strength": 2.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 29,
+    "strength": 3.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 2,
+    "strength": 3.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 7,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 9,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 11,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 17,
+    "strength": 3.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 33,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 38,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 10,
+    "strength": 3.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 16,
+    "strength": 3.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 12,
+    "strength": 2.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 13,
+    "strength": 2.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 12,
+    "strength": 2.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 3,
+    "strength": 4.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 32,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 3,
+    "strength": 5.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 29,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 2,
+    "strength": 4.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 8,
+    "strength": 2.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 17,
+    "strength": 4.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 24,
+    "strength": 2.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 32,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 33,
+    "strength": 2.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 16,
+    "strength": 2.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 2,
+    "strength": 7.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 11,
+    "strength": 3.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 27,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 18,
+    "strength": 3.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 19,
+    "strength": 2.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 32,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 3,
+    "strength": 3.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 9,
+    "strength": 2.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 14,
+    "strength": 2.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 32,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 35,
+    "strength": 2.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 10,
+    "strength": 3.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 32,
+    "strength": 4.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 2,
+    "strength": 2.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 7,
+    "strength": 4.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 8,
+    "strength": 2.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 26,
+    "strength": 2.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 27,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 28,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 38,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 40,
+    "strength": 3.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 12,
+    "strength": 2.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 2,
+    "strength": 2.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 12,
+    "strength": 4.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 16,
+    "strength": 2.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 3,
+    "strength": 6.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 9,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 10,
+    "strength": 3.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 29,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 32,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 37,
+    "strength": 2.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 4,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 8,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 6,
+    "strength": 2.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 3,
+    "strength": 6.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 19,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 3,
+    "strength": 3.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 34,
+    "strength": 2.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 2,
+    "strength": 2.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 38,
+    "strength": 2.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 40,
+    "strength": 3.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 38,
+    "strength": 2.0
+   }
+  ],
+  "clusters": [
+   {
+    "cluster": 1,
+    "label": "兒子、東涌、回來"
+   },
+   {
+    "cluster": 2,
+    "label": "神位、家中、祖先"
+   },
+   {
+    "cluster": 3,
+    "label": "上嶺皮、結婚、群英堂"
+   }
+  ]
+ },
+ "info": {
+  "title": "1992 東涌田野筆記：上嶺皮 詞語共現網絡（第二版）",
+  "description": "上嶺皮：以句子為共現單位（以 。！？； 及段落分句，同一句內出現即計一次）；取出現≥2次的前40個詞；已排除停用詞、人名、單字詞及筆記模板標題。"
+ }
+}

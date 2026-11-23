@@ -1,0 +1,1053 @@
+{
+ "network": {
+  "items": [
+   {
+    "id": 1,
+    "label": "神位",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 16.0
+    },
+    "description": "<b>神位</b><br>村落：龍井頭<br>出現次數：16<br>最常共現：侯王(3)、面向(2)、中間(2)、右邊(2)、過年(2)"
+   },
+   {
+    "id": 2,
+    "label": "屋企人",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 10.0
+    },
+    "description": "<b>屋企人</b><br>村落：龍井頭<br>出現次數：10<br>最常共現：龍井頭(1)、姓陳(1)、家庭(1)、同一(1)"
+   },
+   {
+    "id": 3,
+    "label": "龍井頭",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>龍井頭</b><br>村落：龍井頭<br>出現次數：9<br>最常共現：姓陳(2)、黃家圍(2)、木箱(1)、香燭(1)、殘枝(1)"
+   },
+   {
+    "id": 4,
+    "label": "侯王",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>侯王</b><br>村落：龍井頭<br>出現次數：9<br>最常共現：神位(3)、作福(3)、村民(2)、電燈公司(1)、同一(1)"
+   },
+   {
+    "id": 5,
+    "label": "分家",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>分家</b><br>村落：龍井頭<br>出現次數：8<br>最常共現：兒子(3)、父母(2)、爭執(2)"
+   },
+   {
+    "id": 6,
+    "label": "過年",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>過年</b><br>村落：龍井頭<br>出現次數：5<br>最常共現：神位(2)、紅紙(2)、中間(1)、石堆(1)、一字形(1)"
+   },
+   {
+    "id": 7,
+    "label": "兒子",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>兒子</b><br>村落：龍井頭<br>出現次數：5<br>最常共現：分家(3)、過年(1)、紅紙(1)、父母(1)"
+   },
+   {
+    "id": 8,
+    "label": "木箱",
+    "cluster": 6,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>木箱</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：香燭(2)、殘枝(2)、龍井頭(1)、神位(1)、面向(1)"
+   },
+   {
+    "id": 9,
+    "label": "香燭",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>香燭</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：殘枝(3)、木箱(2)、龍井頭(1)、神位(1)、膠管(1)"
+   },
+   {
+    "id": 10,
+    "label": "面向",
+    "cluster": 6,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>面向</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：東涌道(3)、神位(2)、木箱(1)、神壇(1)"
+   },
+   {
+    "id": 11,
+    "label": "香爐",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>香爐</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：石砌(2)、平面(2)、略高(2)、長方形(2)、香燭(1)"
+   },
+   {
+    "id": 12,
+    "label": "侯王爺",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>侯王爺</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：神位(1)、右邊(1)"
+   },
+   {
+    "id": 13,
+    "label": "同一",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>同一</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：龍井頭(1)、神位(1)、姓陳(1)、黃家圍(1)、屋企人(1)"
+   },
+   {
+    "id": 14,
+    "label": "爭執",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>爭執</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：分家(2)"
+   },
+   {
+    "id": 15,
+    "label": "地主",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>地主</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：祖先神位(3)、神位(2)、兩層(1)、同一(1)、侯王(1)"
+   },
+   {
+    "id": 16,
+    "label": "作福",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>作福</b><br>村落：龍井頭<br>出現次數：4<br>最常共現：侯王(3)、村民(1)"
+   },
+   {
+    "id": 17,
+    "label": "殘枝",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>殘枝</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：香燭(3)、木箱(2)、龍井頭(1)、神位(1)、膠管(1)"
+   },
+   {
+    "id": 18,
+    "label": "東涌道",
+    "cluster": 6,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>東涌道</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：面向(3)、木箱(1)、神位(1)、神壇(1)"
+   },
+   {
+    "id": 19,
+    "label": "中間",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>中間</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：神位(2)、石堆(2)、一字形(2)、排列(2)、香燭(1)"
+   },
+   {
+    "id": 20,
+    "label": "石堆",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>石堆</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：中間(2)、一字形(2)、排列(2)、神位(1)、大小(1)"
+   },
+   {
+    "id": 21,
+    "label": "黃家圍",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>黃家圍</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：龍井頭(2)、神位(1)、姓陳(1)、同一(1)、村民(1)"
+   },
+   {
+    "id": 22,
+    "label": "家庭",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>家庭</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：屋企人(1)"
+   },
+   {
+    "id": 23,
+    "label": "父母",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>父母</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：分家(2)、兒子(1)"
+   },
+   {
+    "id": 24,
+    "label": "祖先神位",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>祖先神位</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：地主(3)、神位(1)、兩層(1)、同一(1)、侯王(1)"
+   },
+   {
+    "id": 25,
+    "label": "村民",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 3.0
+    },
+    "description": "<b>村民</b><br>村落：龍井頭<br>出現次數：3<br>最常共現：神位(2)、侯王(2)、龍井頭(1)、電燈公司(1)、黃家圍(1)"
+   },
+   {
+    "id": 26,
+    "label": "膠管",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>膠管</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：香燭(1)、殘枝(1)、神位(1)、石砌(1)、平面(1)"
+   },
+   {
+    "id": 27,
+    "label": "石砌",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>石砌</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：平面(2)、略高(2)、長方形(2)、香爐(2)、香燭(1)"
+   },
+   {
+    "id": 28,
+    "label": "平面",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>平面</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：石砌(2)、略高(2)、長方形(2)、香爐(2)、香燭(1)"
+   },
+   {
+    "id": 29,
+    "label": "略高",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>略高</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：石砌(2)、平面(2)、長方形(2)、香爐(2)、香燭(1)"
+   },
+   {
+    "id": 30,
+    "label": "長方形",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>長方形</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：石砌(2)、平面(2)、略高(2)、香爐(2)、香燭(1)"
+   },
+   {
+    "id": 31,
+    "label": "神壇",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>神壇</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：面向(1)、東涌道(1)、石砌(1)、平面(1)、略高(1)"
+   },
+   {
+    "id": 32,
+    "label": "一字形",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>一字形</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：中間(2)、石堆(2)、排列(2)、神位(1)、大小(1)"
+   },
+   {
+    "id": 33,
+    "label": "排列",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>排列</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：中間(2)、石堆(2)、一字形(2)、神位(1)、大小(1)"
+   },
+   {
+    "id": 34,
+    "label": "大小",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>大小</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：中間(1)、石堆(1)、一字形(1)、排列(1)"
+   },
+   {
+    "id": 35,
+    "label": "右邊",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>右邊</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：神位(2)、侯王爺(1)、過年(1)"
+   },
+   {
+    "id": 36,
+    "label": "紅紙",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>紅紙</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：過年(2)、神位(1)、中間(1)、石堆(1)、一字形(1)"
+   },
+   {
+    "id": 37,
+    "label": "祠堂",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>祠堂</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：龍井頭(1)"
+   },
+   {
+    "id": 38,
+    "label": "兩層",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>兩層</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：祖先神位(1)、地主(1)"
+   },
+   {
+    "id": 39,
+    "label": "電燈公司",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>電燈公司</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：神位(1)、侯王(1)、村民(1)"
+   },
+   {
+    "id": 40,
+    "label": "姓陳",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 2.0
+    },
+    "description": "<b>姓陳</b><br>村落：龍井頭<br>出現次數：2<br>最常共現：龍井頭(2)、黃家圍(1)、屋企人(1)、同一(1)"
+   }
+  ],
+  "links": [
+   {
+    "source_id": 1,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 6,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 1,
+    "strength": 3.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 25,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 14,
+    "strength": 2.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 23,
+    "strength": 2.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 5,
+    "strength": 3.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 9,
+    "strength": 2.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 17,
+    "strength": 2.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 35,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 24,
+    "strength": 3.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 4,
+    "strength": 3.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 9,
+    "strength": 3.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 27,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 29,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 10,
+    "strength": 3.0
+   },
+   {
+    "source_id": 18,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 20,
+    "strength": 2.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 27,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 28,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 29,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 33,
+    "strength": 2.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 25,
+    "target_id": 39,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 26,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 11,
+    "strength": 2.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 30,
+    "strength": 2.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 11,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 27,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 29,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 30,
+    "strength": 2.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 11,
+    "strength": 2.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 26,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 27,
+    "strength": 2.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 30,
+    "strength": 2.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 11,
+    "strength": 2.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 11,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 30,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 19,
+    "strength": 2.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 20,
+    "strength": 2.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 33,
+    "strength": 2.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 34,
+    "strength": 1.0
+   },
+   {
+    "source_id": 32,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 20,
+    "strength": 2.0
+   },
+   {
+    "source_id": 33,
+    "target_id": 36,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 20,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 33,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 6,
+    "strength": 2.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 24,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 40,
+    "target_id": 21,
+    "strength": 1.0
+   }
+  ],
+  "clusters": [
+   {
+    "cluster": 1,
+    "label": "神位、侯王、侯王爺"
+   },
+   {
+    "cluster": 2,
+    "label": "屋企人、龍井頭、同一"
+   },
+   {
+    "cluster": 3,
+    "label": "香燭、香爐、殘枝"
+   },
+   {
+    "cluster": 4,
+    "label": "分家、兒子、爭執"
+   },
+   {
+    "cluster": 5,
+    "label": "過年、中間、石堆"
+   },
+   {
+    "cluster": 6,
+    "label": "木箱、面向、東涌道"
+   }
+  ]
+ },
+ "info": {
+  "title": "1992 東涌田野筆記：龍井頭 詞語共現網絡（第二版）",
+  "description": "龍井頭：以句子為共現單位（以 。！？； 及段落分句，同一句內出現即計一次）；取出現≥2次的前40個詞；已排除停用詞、人名、單字詞及筆記模板標題。"
+ }
+}

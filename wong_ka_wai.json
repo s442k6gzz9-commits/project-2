@@ -1,0 +1,998 @@
+{
+ "network": {
+  "items": [
+   {
+    "id": 1,
+    "label": "神位",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 33.0
+    },
+    "description": "<b>神位</b><br>村落：黃家圍<br>出現次數：33<br>最常共現：東涌道(4)、龍井頭(4)、面向(3)、祖先(3)、香燭(2)"
+   },
+   {
+    "id": 2,
+    "label": "黃家圍",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 25.0
+    },
+    "description": "<b>黃家圍</b><br>村落：黃家圍<br>出現次數：25<br>最常共現：龍井頭(4)、祠堂(3)、太公(3)、全村(3)、下嶺皮(1)"
+   },
+   {
+    "id": 3,
+    "label": "東涌",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 25.0
+    },
+    "description": "<b>東涌</b><br>村落：黃家圍<br>出現次數：25<br>最常共現：香港(7)、居住(6)、工作(3)、村民(2)、政府(2)"
+   },
+   {
+    "id": 4,
+    "label": "兒子",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 20.0
+    },
+    "description": "<b>兒子</b><br>村落：黃家圍<br>出現次數：20<br>最常共現：過繼(4)、回來(2)、分家(2)、田地(2)、黃家圍(1)"
+   },
+   {
+    "id": 5,
+    "label": "香港",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 15.0
+    },
+    "description": "<b>香港</b><br>村落：黃家圍<br>出現次數：15<br>最常共現：東涌(7)、工作(5)、居住(5)、黃家圍(1)、兒子(1)"
+   },
+   {
+    "id": 6,
+    "label": "龍井頭",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 13.0
+    },
+    "description": "<b>龍井頭</b><br>村落：黃家圍<br>出現次數：13<br>最常共現：黃家圍(4)、神位(4)、大王爺(4)、香燭(1)、下嶺皮(1)"
+   },
+   {
+    "id": 7,
+    "label": "回來",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 12.0
+    },
+    "description": "<b>回來</b><br>村落：黃家圍<br>出現次數：12<br>最常共現：兒子(2)、東涌(1)、工作(1)、時節(1)、父母(1)"
+   },
+   {
+    "id": 8,
+    "label": "居住",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 11.0
+    },
+    "description": "<b>居住</b><br>村落：黃家圍<br>出現次數：11<br>最常共現：東涌(6)、香港(5)、工作(3)、黃家圍(1)、神位(1)"
+   },
+   {
+    "id": 9,
+    "label": "工作",
+    "cluster": 4,
+    "weights": {
+     "Occurrences": 10.0
+    },
+    "description": "<b>工作</b><br>村落：黃家圍<br>出現次數：10<br>最常共現：香港(5)、東涌(3)、居住(3)、回來(1)、田地(1)"
+   },
+   {
+    "id": 10,
+    "label": "村民",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>村民</b><br>村落：黃家圍<br>出現次數：9<br>最常共現：東涌(2)、上香(2)、黃家圍(1)、侯王廟(1)、拜祭(1)"
+   },
+   {
+    "id": 11,
+    "label": "侯王",
+    "cluster": 6,
+    "weights": {
+     "Occurrences": 9.0
+    },
+    "description": "<b>侯王</b><br>村落：黃家圍<br>出現次數：9<br>最常共現：聖杯(3)"
+   },
+   {
+    "id": 12,
+    "label": "拜祭",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>拜祭</b><br>村落：黃家圍<br>出現次數：8<br>最常共現：時節(4)、侯王廟(2)、神位(1)、香燭(1)、初一(1)"
+   },
+   {
+    "id": 13,
+    "label": "分家",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>分家</b><br>村落：黃家圍<br>出現次數：8<br>最常共現：田地(4)、父母(3)、兒子(2)、女兒(2)、過繼(1)"
+   },
+   {
+    "id": 14,
+    "label": "村長",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 8.0
+    },
+    "description": "<b>村長</b><br>村落：黃家圍<br>出現次數：8<br>最常共現：黃家圍(1)、東涌道(1)、東涌(1)、時節(1)、回來(1)"
+   },
+   {
+    "id": 15,
+    "label": "東涌道",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>東涌道</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：神位(4)、面向(2)、政府(2)、香燭(1)、村長(1)"
+   },
+   {
+    "id": 16,
+    "label": "時節",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>時節</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：拜祭(4)、侯王廟(2)、兒子(1)、東涌(1)、初一(1)"
+   },
+   {
+    "id": 17,
+    "label": "父母",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>父母</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：分家(3)、田地(2)、黃家圍(1)、兒子(1)、回來(1)"
+   },
+   {
+    "id": 18,
+    "label": "屋企人",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>屋企人</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：不算(3)、出嫁(3)、兒子(1)、女兒(1)"
+   },
+   {
+    "id": 19,
+    "label": "全村",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>全村</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：黃家圍(3)、太公(3)、拜祭(1)、時節(1)、每年(1)"
+   },
+   {
+    "id": 20,
+    "label": "上香",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>上香</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：村民(2)、拜祭(1)、圍門(1)、祖先(1)"
+   },
+   {
+    "id": 21,
+    "label": "祖先",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>祖先</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：神位(3)、拜祭(1)、時節(1)、回來(1)、全村(1)"
+   },
+   {
+    "id": 22,
+    "label": "政府",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 7.0
+    },
+    "description": "<b>政府</b><br>村落：黃家圍<br>出現次數：7<br>最常共現：東涌道(2)、東涌(2)、神位(1)、村長(1)、過繼(1)"
+   },
+   {
+    "id": 23,
+    "label": "香燭",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>香燭</b><br>村落：黃家圍<br>出現次數：6<br>最常共現：神位(2)、東涌道(1)、初一(1)、侯王廟(1)、拜祭(1)"
+   },
+   {
+    "id": 24,
+    "label": "侯王廟",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>侯王廟</b><br>村落：黃家圍<br>出現次數：6<br>最常共現：初一(2)、拜祭(2)、時節(2)、香燭(1)、十五(1)"
+   },
+   {
+    "id": 25,
+    "label": "過繼",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 6.0
+    },
+    "description": "<b>過繼</b><br>村落：黃家圍<br>出現次數：6<br>最常共現：兒子(4)、分家(1)、田地(1)、政府(1)"
+   },
+   {
+    "id": 26,
+    "label": "面向",
+    "cluster": 3,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>面向</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：神位(3)、東涌道(2)"
+   },
+   {
+    "id": 27,
+    "label": "祠堂",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>祠堂</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：黃家圍(3)、下嶺皮(1)"
+   },
+   {
+    "id": 28,
+    "label": "女兒",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>女兒</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：分家(2)、屋企人(1)、不算(1)、出嫁(1)、田地(1)"
+   },
+   {
+    "id": 29,
+    "label": "初一",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>初一</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：十五(3)、侯王廟(2)、神位(1)、香燭(1)、拜祭(1)"
+   },
+   {
+    "id": 30,
+    "label": "不算",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>不算</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：屋企人(3)、出嫁(2)、女兒(1)、父母(1)"
+   },
+   {
+    "id": 31,
+    "label": "田地",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>田地</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：分家(4)、兒子(2)、父母(2)、香港(1)、女兒(1)"
+   },
+   {
+    "id": 32,
+    "label": "圍門",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>圍門</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：上香(1)"
+   },
+   {
+    "id": 33,
+    "label": "聖杯",
+    "cluster": 6,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>聖杯</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：侯王(3)"
+   },
+   {
+    "id": 34,
+    "label": "大王爺",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>大王爺</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：龍井頭(4)、神位(2)、黃家圍(1)、拜祭(1)"
+   },
+   {
+    "id": 35,
+    "label": "兄弟",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 5.0
+    },
+    "description": "<b>兄弟</b><br>村落：黃家圍<br>出現次數：5<br>最常共現：黃家圍(1)、東涌(1)、分家(1)、政府(1)"
+   },
+   {
+    "id": 36,
+    "label": "下嶺皮",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>下嶺皮</b><br>村落：黃家圍<br>出現次數：4<br>最常共現：黃家圍(1)、祠堂(1)、龍井頭(1)"
+   },
+   {
+    "id": 37,
+    "label": "十五",
+    "cluster": 5,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>十五</b><br>村落：黃家圍<br>出現次數：4<br>最常共現：初一(3)、神位(1)、東涌(1)、侯王廟(1)、時節(1)"
+   },
+   {
+    "id": 38,
+    "label": "出嫁",
+    "cluster": 2,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>出嫁</b><br>村落：黃家圍<br>出現次數：4<br>最常共現：屋企人(3)、不算(2)、女兒(1)"
+   },
+   {
+    "id": 39,
+    "label": "太公",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>太公</b><br>村落：黃家圍<br>出現次數：4<br>最常共現：黃家圍(3)、全村(3)、每年(1)、龍井頭(1)、村民(1)"
+   },
+   {
+    "id": 40,
+    "label": "每年",
+    "cluster": 1,
+    "weights": {
+     "Occurrences": 4.0
+    },
+    "description": "<b>每年</b><br>村落：黃家圍<br>出現次數：4<br>最常共現：初一(1)、太公(1)、全村(1)、村民(1)"
+   }
+  ],
+  "links": [
+   {
+    "source_id": 1,
+    "target_id": 6,
+    "strength": 4.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 23,
+    "strength": 2.0
+   },
+   {
+    "source_id": 1,
+    "target_id": 26,
+    "strength": 3.0
+   },
+   {
+    "source_id": 2,
+    "target_id": 6,
+    "strength": 4.0
+   },
+   {
+    "source_id": 3,
+    "target_id": 5,
+    "strength": 7.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 7,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 13,
+    "strength": 2.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 25,
+    "strength": 4.0
+   },
+   {
+    "source_id": 4,
+    "target_id": 31,
+    "strength": 2.0
+   },
+   {
+    "source_id": 5,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 9,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 7,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 3,
+    "strength": 6.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 5,
+    "strength": 5.0
+   },
+   {
+    "source_id": 8,
+    "target_id": 9,
+    "strength": 3.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 3,
+    "strength": 3.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 5,
+    "strength": 5.0
+   },
+   {
+    "source_id": 9,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 10,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 11,
+    "target_id": 33,
+    "strength": 3.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 16,
+    "strength": 4.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 12,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 17,
+    "strength": 3.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 28,
+    "strength": 2.0
+   },
+   {
+    "source_id": 13,
+    "target_id": 31,
+    "strength": 4.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 14,
+    "target_id": 15,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 1,
+    "strength": 4.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 15,
+    "target_id": 26,
+    "strength": 2.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 16,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 17,
+    "target_id": 31,
+    "strength": 2.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 2,
+    "strength": 3.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 39,
+    "strength": 3.0
+   },
+   {
+    "source_id": 19,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 10,
+    "strength": 2.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 21,
+    "strength": 1.0
+   },
+   {
+    "source_id": 20,
+    "target_id": 32,
+    "strength": 1.0
+   },
+   {
+    "source_id": 21,
+    "target_id": 1,
+    "strength": 3.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 3,
+    "strength": 2.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 14,
+    "strength": 1.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 15,
+    "strength": 2.0
+   },
+   {
+    "source_id": 22,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 23,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 12,
+    "strength": 2.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 16,
+    "strength": 2.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 29,
+    "strength": 2.0
+   },
+   {
+    "source_id": 24,
+    "target_id": 37,
+    "strength": 1.0
+   },
+   {
+    "source_id": 27,
+    "target_id": 2,
+    "strength": 3.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 18,
+    "strength": 1.0
+   },
+   {
+    "source_id": 28,
+    "target_id": 31,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 23,
+    "strength": 1.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 37,
+    "strength": 3.0
+   },
+   {
+    "source_id": 29,
+    "target_id": 40,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 17,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 18,
+    "strength": 3.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 28,
+    "strength": 1.0
+   },
+   {
+    "source_id": 30,
+    "target_id": 38,
+    "strength": 2.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 5,
+    "strength": 1.0
+   },
+   {
+    "source_id": 31,
+    "target_id": 25,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 1,
+    "strength": 2.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 6,
+    "strength": 4.0
+   },
+   {
+    "source_id": 34,
+    "target_id": 12,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 13,
+    "strength": 1.0
+   },
+   {
+    "source_id": 35,
+    "target_id": 22,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 2,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 36,
+    "target_id": 27,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 1,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 3,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 37,
+    "target_id": 16,
+    "strength": 1.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 18,
+    "strength": 3.0
+   },
+   {
+    "source_id": 38,
+    "target_id": 28,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 2,
+    "strength": 3.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 6,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 10,
+    "strength": 1.0
+   },
+   {
+    "source_id": 39,
+    "target_id": 40,
+    "strength": 1.0
+   }
+  ],
+  "clusters": [
+   {
+    "cluster": 1,
+    "label": "黃家圍、龍井頭、村民"
+   },
+   {
+    "cluster": 2,
+    "label": "兒子、回來、分家"
+   },
+   {
+    "cluster": 3,
+    "label": "神位、村長、東涌道"
+   },
+   {
+    "cluster": 4,
+    "label": "東涌、香港、居住"
+   },
+   {
+    "cluster": 5,
+    "label": "拜祭、時節、香燭"
+   },
+   {
+    "cluster": 6,
+    "label": "侯王、聖杯"
+   }
+  ]
+ },
+ "info": {
+  "title": "1992 東涌田野筆記：黃家圍 詞語共現網絡（第二版）",
+  "description": "黃家圍：以句子為共現單位（以 。！？； 及段落分句，同一句內出現即計一次）；取出現≥2次的前40個詞；已排除停用詞、人名、單字詞及筆記模板標題。"
+ }
+}
