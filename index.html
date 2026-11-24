@@ -45,6 +45,7 @@ header nav a:hover,#toggleSide:hover{background:rgba(255,255,255,.12)}
 .tabs button{border:1px solid #cfd8e0;background:#fff;color:var(--ink);border-radius:999px;padding:5px 12px;font-size:12.5px;cursor:pointer}
 .tabs button:hover{border-color:var(--accent-2)}
 .tabs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.theme-obs{margin:8px 0 0;font-size:12.5px;line-height:1.65;color:#5a3d00;background:#fff6e5;border-radius:8px;padding:8px 11px}
 .theme-desc{margin:10px 0 0;font-size:12.5px;line-height:1.65;color:#3b474f;background:var(--soft);border-radius:8px;padding:8px 11px}
 
 .vlist{list-style:none;margin:0;padding:6px 10px 10px;border-bottom:1px solid var(--line)}
@@ -93,6 +94,11 @@ ol.limits{margin:0;padding-left:20px} ol.limits li{margin-bottom:6px} ol.limits 
 .hide-labels .vlabel{display:none}
 .linklabel{background:rgba(255,255,255,.92);border:none;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.25);font-size:12px;padding:3px 8px;color:var(--ink)}
 
+details.lyr{margin-top:8px;border-top:1px solid var(--line);padding-top:6px}
+details.lyr>summary{cursor:pointer;font-size:12px;color:var(--accent-2);list-style:none}
+details.lyr>summary::-webkit-details-marker{display:none}
+details.lyr>summary::before{content:"▸ "}
+details.lyr[open]>summary::before{content:"▾ "}
 /* Module 1 photos */
 .psq{width:12px;height:12px;border:2px solid #fff;border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.35)}
 .lg-row u{width:12px;height:12px;border:2px solid #fff;border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.35);flex-shrink:0;text-decoration:none}
@@ -174,6 +180,7 @@ ul.coll{margin:0;padding-left:16px}
     <div class="label-sm">地圖主題</div>
     <div class="tabs" id="tabs"></div>
     <p class="theme-desc" id="themeDesc"></p>
+    <p class="theme-obs" id="themeObs"></p>
   </div>
   <ul class="vlist" id="vlist"></ul>
 
@@ -242,7 +249,7 @@ ul.coll{margin:0;padding-left:16px}
   var THEMES={
     cert:{name:'位置可信度',desc:'村落點的定位依據。每點只代表村落的大概範圍，不是個別房屋的位置。',
       cats:{High:{l:'高',c:'#2e9e5b',d:'確認位置'},Medium:{l:'中',c:'#e8890c',d:'按地圖村名或村公所定位'},Low:{l:'低',c:'#9aa0a6',d:'沿用 Module 1 村落參考點'}}},
-    hall:{name:'祠堂與公共建築',desc:'各村有沒有祠堂、祠堂是否仍在，以及以甚麼公共建築代替。虛線表示跨村共用。',
+    hall:{name:'祠堂與公共建築',obs:'觀察：北面靠近東涌道的上嶺皮、下嶺皮、黃家圍、龍井頭，都沒有祠堂、祠堂已倒塌或以公共建築代替；南面的石榴埔和莫家仍有祠堂。只有七條村，這只是初步觀察。',desc:'各村有沒有祠堂、祠堂是否仍在，以及以甚麼公共建築代替。虛線表示跨村共用。',
       cats:{have:{l:'有祠堂',c:'#8c510a'},fallen:{l:'祠堂已倒塌',c:'#d73027'},replace:{l:'以公共建築代替',c:'#3a78c2'},none:{l:'沒有祠堂',c:'#9aa0a6'}},
       v:{'上嶺皮':['replace','沒有祠堂。群英堂由十多個姓氏的人湊錢興建，原為私塾，由村長管理，用作擺酒。'],
          '下嶺皮':['fallen','以前有祠堂，但已倒塌，後人沒有重建；現有公所。'],
@@ -252,7 +259,7 @@ ul.coll{margin:0;padding-left:16px}
          '莫家':['have','莫裕生堂仍然維持並曾重建；新人的婚名以紅紙貼在祠堂。'],
          '石門甲':['replace','沒有祠堂，只有村公所（1988 年重建）；所有村民都有鎖匙，內有神位，可自由上香。']},
       links:[['黃家圍','下嶺皮','三村聯合會所'],['黃家圍','龍井頭','三村聯合會所／同一村長'],['下嶺皮','龍井頭','三村聯合會所']]},
-    houwang:{name:'侯王',desc:'侯王在各村的角色：問事擇日、座鎮避邪，或節慶與祈福。',
+    houwang:{name:'侯王',obs:'觀察：侯王出現在全部七條村，但角色不同。下嶺皮和石門甲用侯王座鎮避邪，兩者都與道路有關（修馬路、三叉路口）。',desc:'侯王在各村的角色：問事擇日、座鎮避邪，或節慶與祈福。',
       cats:{ask:{l:'問事擇日',c:'#6a3d9a'},guard:{l:'座鎮避邪',c:'#c0392b'},fest:{l:'節慶與祈福',c:'#e8890c'}},
       v:{'上嶺皮':['ask','動工、安裝冷氣前到侯王廟問侯王擇日，取回「侯王爺鎮」紙樣貼在牆上；農曆八月十六日侯王廟有神功戲。'],
          '黃家圍':['ask','先擇日子，再擲聖杯問侯王，侯王准許聖杯才會跌下；受訪者亦拜天后。'],
@@ -261,7 +268,7 @@ ul.coll{margin:0;padding-left:16px}
          '龍井頭':['fest','農曆二月向侯王「作福」，請願祈求一年平安，靈驗則年尾還神；安放神位的日子要問侯王。'],
          '石榴埔':['fest','侯王寶誕為期五日四夜，是全村最多人回來的時候；安置灶君要問侯王。'],
          '莫家':['fest','年青人組成炮會「同義堂」參與侯王誕；動工、結婚會問侯王，不找風水先生。']}},
-    guard:{name:'村口守護神',desc:'大王爺、伯公、圍門公等守護村落的神位。虛線表示村民到鄰村拜祭。',
+    guard:{name:'村口守護神',obs:'觀察：守護神的拜祭跨越村界——黃家圍村民到龍井頭拜大王爺，石榴埔村民到石門甲村口酬神。',desc:'大王爺、伯公、圍門公等守護村落的神位。虛線表示村民到鄰村拜祭。',
       cats:{have:{l:'有村口神位',c:'#1a9850'},visit:{l:'到鄰村拜祭',c:'#f39c12'},few:{l:'記錄較少',c:'#9aa0a6'}},
       v:{'上嶺皮':['have','村口有兩座「大王爺」神位和「伯公」，井前有「水井公」，石牆中有「圍門神」守護村的唯一入口；受訪者認為各神位沒有大小之分。'],
          '下嶺皮':['have','大王爺是一棵龍眼樹，樹前石刻「社稷大王神位」，保佑平安、驅走邪氣。'],
@@ -271,7 +278,7 @@ ul.coll{margin:0;padding-left:16px}
          '莫家':['few','受訪者解釋：伯公村外人都可以拜；大王爺及土地屬各村所有，只限本村人拜祭。'],
          '石門甲':['few','筆記沒有記載村口神位；石榴埔受訪者則提到石門甲村口有「玄壇古□廟」。']},
       links:[['黃家圍','龍井頭','黃家圍村民到龍井頭拜大王爺'],['石榴埔','石門甲','石榴埔村民到石門甲村口玄壇古廟酬神']]},
-    home:{name:'家中神位',desc:'家中神位的排列方式，反映祖先、土地神與其他神明的位置關係。',
+    home:{name:'家中神位',obs:'觀察：黃家圍和龍井頭的神位排列相同（祖先在上、地主在下），兩村亦由同一村長管理。',desc:'家中神位的排列方式，反映祖先、土地神與其他神明的位置關係。',
       cats:{layer:{l:'祖先在上、地主在下',c:'#2166ac'},many:{l:'多神並祀',c:'#4dac26'},gender:{l:'男左女右',c:'#762a83'},guanyin:{l:'觀音高於祖先',c:'#d01c8b'},few:{l:'記錄較少',c:'#9aa0a6'}},
       v:{'黃家圍':['layer','神位面向正門，上層為祖先、下層為地主；屋右側另有一個較低、較細小的神位。'],
          '龍井頭':['layer','神位面向正門，上層為歷代祖先、下層為地主；廚房有灶君，過年前「謝灶」。'],
@@ -313,7 +320,13 @@ ul.coll{margin:0;padding-left:16px}
   /* ---------- Module 1 photos (B23, 2004) ---------- */
   var PCERT={High:{l:'高',c:'#487bb6'},Medium:{l:'中',c:'#ce6336'},Low:{l:'低',c:'#cfc6d6'}};
   map.createPane('p_photo');map.getPane('p_photo').style.zIndex=600;
-  function imgOf(p){return p.Image_Path?'images/'+String(p.Image_Path).replace(/[\\/:]/g,'_').trim():'';}
+  var M1RAW='https://raw.githubusercontent.com/s442k6gzz9-commits/DH_assignment1_finalfinal/main/images/';
+  function imgOf(p){return p.Photo_ID?'images_web/'+p.Photo_ID+'.jpg':'';}
+  function imgFallback(p){
+    if(p.Photo_ID==='B23P10') return M1RAW+'B23P10.jpg';
+    return p.Image_Path?'images/'+String(p.Image_Path).replace(/[\\/:]/g,'_').trim():'';
+  }
+  function imgTag(p,extra){return '<img src="'+esc(imgOf(p))+'" data-fb="'+esc(imgFallback(p))+'" onerror="if(this.dataset.fb&&this.src.indexOf(this.dataset.fb)<0){this.src=this.dataset.fb;}" '+(extra||'')+' loading="lazy">';}
   var photosByVillage={}, photoMarkers={};
   var photoCluster=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:34,spiderfyDistanceMultiplier:1.6,clusterPane:'p_photo',
     iconCreateFunction:function(c){return L.divIcon({html:'<div>'+c.getChildCount()+'</div>',className:'pcluster',iconSize:[32,32]});}});
@@ -323,7 +336,7 @@ ul.coll{margin:0;padding-left:16px}
     onEachFeature:function(f,layer){
       var p=f.properties,img=imgOf(p),pc=PCERT[p.Location_Certainty]||{l:'未定'};
       (photosByVillage[p.Village]=photosByVillage[p.Village]||[]).push(f);photoMarkers[p.Photo_ID]=layer;
-      var html='<div class="pp">'+(img?'<img src="'+esc(img)+'" alt="'+esc(p.Photo_ID)+'" loading="lazy">':'')+
+      var html='<div class="pp">'+(img?imgTag(p,'alt="'+esc(p.Photo_ID)+'"'):'')+
         '<div class="pp-body"><span class="tagm1">Module 1｜B23 照片</span><h4>'+esc(p.Photo_ID)+'｜'+esc(p.Village)+'</h4>'+
         '<div class="row">原始標註：<b>'+esc(p.original_note)+'</b></div>'+
         '<div class="row">日期：<b>'+esc(p.original_date_text)+'</b>　主題：<b>'+esc(p.Primary_Subject)+'</b></div>'+
@@ -380,7 +393,7 @@ ul.coll{margin:0;padding-left:16px}
         '<div class="vp-sec"><h4>主要發現</h4><div class="finding">'+esc(p.finding)+'</div></div></div>'+
       '<div class="pane-x '+(facFirst?'on':'')+'" data-p="f">'+fac+'</div>'+
       ((photosByVillage[v]||[]).length?'<div class="vp-sec" style="margin-top:4px"><h4>MODULE 1 照片（2004）</h4><div class="thumbs">'+
-        photosByVillage[v].slice(0,6).map(function(f){return '<img src="'+esc(imgOf(f.properties))+'" alt="'+esc(f.properties.Photo_ID)+'" title="'+esc(f.properties.Photo_ID)+'：'+esc(f.properties.original_note)+'" data-photo="'+esc(f.properties.Photo_ID)+'" loading="lazy">';}).join('')+
+        photosByVillage[v].slice(0,6).map(function(f){var q=f.properties;return imgTag(q,'alt="'+esc(q.Photo_ID)+'" title="'+esc(q.Photo_ID)+'：'+esc(q.original_note)+'" data-photo="'+esc(q.Photo_ID)+'"');}).join('')+
         '</div><div class="note" style="margin-top:4px">1992 年筆記與 2004 年照片相隔 12 年，可對照村貌的變化。點擊照片查看詳情。</div></div>':'')+
       '<div class="vp-loc">📍 '+esc(p.loc_method)+'：'+esc(p.loc_note)+'</div>'+
       '<a class="vos-btn" href="'+esc(p.vos_url)+'" target="_blank" rel="noopener">開啟 VOSviewer 詞語共現網絡 ↗</a></div>';
@@ -419,7 +432,9 @@ ul.coll{margin:0;padding-left:16px}
   var Panel=L.Control.extend({options:{position:'topright'},onAdd:function(){
     var d=L.DomUtil.create('div','map-card');
     d.innerHTML='<button class="collapse" id="lgToggle">收起</button><h3 id="lgTitle">圖例</h3><div id="lgBody"><div id="lgItems"></div>'+
-      '<div class="lg-sep"></div><h3>Module 1 照片位置</h3>'+
+      '<div class="lg-row"><u style="background:#487bb6"></u>Module 1 照片 <small style="color:#888">（方形）</small></div>'+
+      '<details class="lyr"><summary>圖層與背景</summary>'+
+      '<h3 style="margin-top:8px">Module 1 照片位置</h3>'+
       '<div class="lg-row"><u style="background:#487bb6"></u>高</div><div class="lg-row"><u style="background:#ce6336"></u>中</div><div class="lg-row"><u style="background:#cfc6d6"></u>低</div>'+
       '<div class="lg-sep"></div><h3>圖層</h3>'+
       '<label class="layer-row"><input type="checkbox" class="ly" data-l="photo" checked>Module 1 照片（B23）</label>'+
@@ -428,7 +443,7 @@ ul.coll{margin:0;padding-left:16px}
       '<label class="layer-row"><input type="checkbox" class="ly" data-l="hkms">iB5000 地形圖 <small style="color:#888">檔案較大</small></label>'+
       '<div class="lg-sep"></div><h3>背景</h3>'+
       '<label class="layer-row"><input type="radio" name="base" value="sat" checked>今日衛星影像</label>'+
-      '<label class="layer-row"><input type="radio" name="base" value="gray">淺灰底圖</label></div>';
+      '<label class="layer-row"><input type="radio" name="base" value="gray">淺灰底圖</label></details></div>';
     L.DomEvent.disableClickPropagation(d);L.DomEvent.disableScrollPropagation(d);return d;}});
   new Panel().addTo(map);
   document.querySelectorAll('input[name="base"]').forEach(function(r){r.addEventListener('change',function(){
@@ -447,6 +462,7 @@ ul.coll{margin:0;padding-left:16px}
     current=k; var T=THEMES[k];
     tabs.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.k===k);});
     document.getElementById('themeDesc').textContent=T.desc;
+    var ob=document.getElementById('themeObs');ob.textContent=T.obs||'';ob.style.display=T.obs?'':'none';
     ORDER.forEach(function(v){var m=markers[v];if(!m)return;var c=catOf(k,v,props[v]);m.setStyle({fillColor:c.c});});
     Array.prototype.forEach.call(list.children,function(li){
       var v=li.dataset.v,p=props[v];if(!p)return;var c=catOf(k,v,p);
